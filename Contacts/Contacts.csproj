@@ -69,7 +69,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddContactDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddContactDialog.Designer.cs">
+      <DependentUpon>AddContactDialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="Contact.cs" />
+    <Compile Include="ContactList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContactList.Designer.cs">
+      <DependentUpon>ContactList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Database.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -85,6 +97,12 @@
     <Compile Include="Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddContactDialog.resx">
+      <DependentUpon>AddContactDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContactList.resx">
+      <DependentUpon>ContactList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>

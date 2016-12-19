@@ -1,1 +1,21 @@
 c:\users\viccrubs\documents\visual studio 2015\Projects\Contacts\Contacts\bin\Debug\Contacts.exe.config
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\bin\Debug\Contacts.exe.config
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\bin\Debug\Contacts.exe
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\bin\Debug\Contacts.pdb
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\bin\Debug\EntityFramework.dll
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\bin\Debug\System.Data.SQLite.dll
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\bin\Debug\EntityFramework.xml
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\bin\Debug\System.Data.SQLite.xml
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\obj\Debug\Contacts.csprojResolveAssemblyReference.cache
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\obj\Debug\Contacts.Login.resources
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\obj\Debug\Contacts.Properties.Resources.resources
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\obj\Debug\Contacts.Register.resources
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\obj\Debug\Contacts.csproj.GenerateResource.Cache
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\obj\Debug\Contacts.exe
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\obj\Debug\Contacts.pdb
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\obj\Debug\Contacts.ContactList.resources
+C:\Users\viccrubs\Documents\Projects\Contacts\Contacts\obj\Debug\Contacts.AddContactDialog.resources

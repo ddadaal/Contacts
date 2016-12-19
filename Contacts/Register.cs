@@ -34,6 +34,18 @@ namespace Contacts
                 MessageBox.Show("请输入密码！");
                 return;
             }
+
+            Database db = new Database();
+            DatabaseStatus status = db.Register(tbUsername.Text, tbPassword.Text);
+            if (status == DatabaseStatus.UserExists)
+            {
+                MessageBox.Show("用户已存在！");
+            }
+            if (status == DatabaseStatus.Success)
+            {
+
+                MessageBox.Show("用户注册成功！");
+            }
         }
     }
 }

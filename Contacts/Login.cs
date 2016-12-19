@@ -29,7 +29,31 @@ namespace Contacts
                 MessageBox.Show("请输入密码！");
                 return;
             }
+            Database db = new Database();
+            DatabaseStatus status =  db.Login(tbUsername.Text, tbPassword.Text);
+            if (status == DatabaseStatus.WrongPassword)
+            {
+                MessageBox.Show("密码错误！");
+
+            }
+            if (status == DatabaseStatus.Success)
+            {
+                ContactList formContact = new Contacts.ContactList(db);
+                formContact.Show();
+                this.Hide();
+
+            }
+            if (status == DatabaseStatus.UserNotExists)
+            {
+                MessageBox.Show("用户不存在");
+            }
             
         }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            (new Register()).Show();
+        }
+
     }
 }
